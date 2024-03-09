@@ -8,7 +8,7 @@ function Callbackurl() {
 
   useEffect(() => {
     // Make a request to the backend (replace with your actual backend URL)
-    fetch('http://localhost:3001/callback')
+    fetch('https://master.dtyw0hp9ekv12.amplifyapp.com//callback')
       .then(response => response.json())
       .then(data => {
         // Handle the data from the server
@@ -21,7 +21,7 @@ function Callbackurl() {
 
   return (
     <div>
-      {/* Your component UI */}
+      {data}
     </div>
   );
 };
